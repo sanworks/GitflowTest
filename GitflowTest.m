@@ -1,6 +1,6 @@
 function Result = GitflowTest(TestNum)
 
-Mode = 'Verbose';
+Mode = 'OccasionalPeep';
 ValidModes = {'Silent', 'OccasionalPeep', 'Verbose'};
 ModeIndex = find(strcmp(Mode, ValidModes));
 if isempty(ModeIndex)
