@@ -1,3 +1,4 @@
+% Version 1.0.0
 function Result = GitflowTest(TestNum)
 % This is a test
 Mode = 'Verbose';
