@@ -7,7 +7,7 @@ if isempty(ModeIndex)
     error(['Error: ' Mode ' is an invalid mode'])
 end
 
-if ModeIndex == 4
+if ModeIndex == 3
     disp('Testing...');
     disp('Testing...');
     disp('Testing...');
