@@ -1,4 +1,4 @@
-% Version 1.0.0
+% Version 1.0.1
 function Result = GitflowTest(TestNum)
 
 Mode = 'Verbose';
@@ -7,12 +7,13 @@ ModeIndex = find(strcmp(Mode, ValidModes));
 if isempty(ModeIndex)
     error(['Error: ' Mode ' is an invalid mode'])
 end
-
+% This release has some comments
 if ModeIndex == 3
     disp('Testing, Testing...');
     disp('Testing, Testing...');
     disp('Testing, Testing...');
 end
+% This code handles TestNum
 switch TestNum
     case 1
         disp('Test 1');
