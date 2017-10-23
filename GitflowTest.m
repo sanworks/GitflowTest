@@ -10,3 +10,5 @@ switch TestNum
     case 4
         disp('Test 4');
 end
+
+disp('Test complete.');
