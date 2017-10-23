@@ -1,5 +1,17 @@
 function Result = GitflowTest(TestNum)
 
+Mode = 'Verbose';
+ValidModes = {'Silent', 'Verbose'};
+ModeIndex = find(strcmp(Mode, ValidModes));
+if isempty(ModeIndex)
+    error(['Error: ' Mode ' is an invalid mode'])
+end
+
+if ModeIndex == 2
+    disp('Testing...');
+    disp('Testing...');
+    disp('Testing...');
+end
 switch TestNum
     case 1
         disp('Test 1');
@@ -12,3 +24,4 @@ switch TestNum
 end
 
 disp('Test complete.');
+Result = TestNum;
