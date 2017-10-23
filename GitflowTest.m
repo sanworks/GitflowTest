@@ -1,5 +1,5 @@
 function Result = GitflowTest(TestNum)
-
+% This is a test
 Mode = 'Verbose';
 ValidModes = {'Silent', 'OccasionalPeep', 'Verbose'};
 ModeIndex = find(strcmp(Mode, ValidModes));
