@@ -1,13 +1,13 @@
 function Result = GitflowTest(TestNum)
 
 Mode = 'Verbose';
-ValidModes = {'Silent', 'Verbose'};
+ValidModes = {'Silent', 'OccasionalPeep', 'Verbose'};
 ModeIndex = find(strcmp(Mode, ValidModes));
 if isempty(ModeIndex)
     error(['Error: ' Mode ' is an invalid mode'])
 end
 
-if ModeIndex == 2
+if ModeIndex == 3
     disp('Testing, Testing...');
     disp('Testing, Testing...');
     disp('Testing, Testing...');
