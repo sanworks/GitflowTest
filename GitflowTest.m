@@ -9,6 +9,8 @@ end
 
 if ModeIndex == 2
     disp('Testing...');
+    disp('Testing...');
+    disp('Testing...');
 end
 switch TestNum
     case 1
