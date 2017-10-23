@@ -8,9 +8,9 @@ if isempty(ModeIndex)
 end
 
 if ModeIndex == 2
-    disp('Testing...');
-    disp('Testing...');
-    disp('Testing...');
+    disp('Testing, Testing...');
+    disp('Testing, Testing...');
+    disp('Testing, Testing...');
 end
 switch TestNum
     case 1
